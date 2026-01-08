@@ -1,5 +1,5 @@
 //simple calculator app
-function add(a, b) {
+function add(a, b) { //change from CLONE 2
   return a-b;
 }
 
