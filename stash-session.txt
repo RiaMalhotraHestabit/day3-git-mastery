@@ -1,0 +1,7 @@
+Stash Workflow Session
+
+1. Modified app.js without committing
+2. Ran git stash to save local changes
+3. Pulled latest changes from remote repository
+4. Applied stash using git stash apply
+5. Verified that local changes were restored successfully
