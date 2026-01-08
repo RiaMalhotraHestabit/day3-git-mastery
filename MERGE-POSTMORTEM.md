@@ -20,15 +20,19 @@ The merge conflict was resolved manually by following these steps:
    
    **screenshot**
    
-   ![Merge conflict](screenshot/1.png)
+   ![screenshot/1.png](https://github.com/RiaMalhotraHestabit/day3-git-mastery/blob/main/Screenshot/1.png)
    
-3. Git conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) were identified in the file.
-4. Both changes from Clone 1 and Clone 2 were reviewed carefully.
+2. Git conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) were identified in the file.
+3. Both changes from Clone 1 and Clone 2 were reviewed carefully.
+    
+   **screenshot**
    
-6. Instead of discarding one change, **both comments were preserved** to ensure no contributor’s work was lost.
-7. The buggy logic was removed, and the correct numeric addition logic was retained.
-8. All conflict markers were removed to restore valid JavaScript syntax.
-9. The resolved file was staged and committed, creating a merge commit.
+   ![screenshot/1.png](https://github.com/RiaMalhotraHestabit/day3-git-mastery/blob/main/Screenshot/3.png)
+   
+4. Instead of discarding one change, **both comments were preserved** to ensure no contributor’s work was lost.
+5. The buggy logic was removed, and the correct numeric addition logic was retained.
+6. All conflict markers were removed to restore valid JavaScript syntax.
+7. The resolved file was staged and committed, creating a merge commit.
 
 This approach ensured that:
 - Both contributors’ changes were kept
@@ -37,14 +41,10 @@ This approach ensured that:
 
 ---
 
-## Final Resolved Code
+## Final Evidence of Tree branch
+  
+   **screenshot**
+   
+   ![screenshot/1.png](https://github.com/RiaMalhotraHestabit/day3-git-mastery/blob/main/Screenshot/5.png)
 
-```js
-// change from CLONE 2
-// change from clone 1
 
-function add(a, b) {
-  return Number(a) + Number(b);
-}
-
-console.log("Application started...");
