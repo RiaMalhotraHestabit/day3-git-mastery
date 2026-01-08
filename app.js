@@ -4,5 +4,5 @@ function add(a, b) {
 }
 
 
-console.log("App running...");
+console.log("Application started...");
 
