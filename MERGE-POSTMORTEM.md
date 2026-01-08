@@ -17,9 +17,12 @@ This situation simulates a real-world collaboration scenario where multiple deve
 The merge conflict was resolved manually by following these steps:
 
 1. The conflicted file (`app.js`) was opened in a text editor.
+   
    **screenshot**
    
-2. Git conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) were identified in the file.
+   ![Merge conflict](screenshot/1.png)
+   
+3. Git conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) were identified in the file.
 4. Both changes from Clone 1 and Clone 2 were reviewed carefully.
    
 6. Instead of discarding one change, **both comments were preserved** to ensure no contributor’s work was lost.
