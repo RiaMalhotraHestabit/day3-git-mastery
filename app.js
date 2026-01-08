@@ -1,5 +1,6 @@
+// TEMP CHANGE: stash workflow test
 //simple calculator app
-function add(a, b) {
+function add(a, b) { //change from clone 1
   return a-b;
 }
 
