@@ -1,0 +1,15 @@
+git bisect start
+# status: waiting for both good and bad commits
+# bad: [c5e82b0a9c3c6ce11ee12f1c220beb4724581d88] commit 8: final polish
+git bisect bad c5e82b0a9c3c6ce11ee12f1c220beb4724581d88
+# status: waiting for good commit(s), bad commit known
+# bad: [c5e82b0a9c3c6ce11ee12f1c220beb4724581d88] commit 8: final polish
+git bisect bad c5e82b0a9c3c6ce11ee12f1c220beb4724581d88
+# status: waiting for good commit(s), bad commit known
+# good: [959bf903b3d318b41aebfd3db091720d2ec0aa21] commit 1: basic add function
+git bisect good 959bf903b3d318b41aebfd3db091720d2ec0aa21
+# bad: [80287add8e0f5ddb00ac2d74ee87ca908cd720e0] commit 4: refactor add logic (BUG)
+git bisect bad 80287add8e0f5ddb00ac2d74ee87ca908cd720e0
+# good: [94ce54534b9325559b387ca4a4f3c71f6b2e0302] commit 3: enforce numeric addition
+git bisect good 94ce54534b9325559b387ca4a4f3c71f6b2e0302
+# first bad commit: [80287add8e0f5ddb00ac2d74ee87ca908cd720e0] commit 4: refactor add logic (BUG)
